@@ -1,0 +1,254 @@
+{
+  "students": [
+    {
+      "name": "Sulaiman Allen",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Amari Ashwood",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Melanie Baker",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Keith Bradley",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Castle Crawford",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Danielle Duer-Scheele",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Mark Easterling",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Alan Eatherly",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Megan Ford",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "John Green",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Hannah Hall",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Tekisha Hammock",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Carter Harris",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Simon Herrera",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Patrick Howell",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Joe Kane",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Michael Mead",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Whitney Mitchell",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Adam Oswalt",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Chase Ramsey",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Russell Ries",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Damon Romano",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Cory Tohill",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Ben Wilburn",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Jessica Wynn",
+      "image": "public/img/...",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#"
+    }
+  ]
+}
