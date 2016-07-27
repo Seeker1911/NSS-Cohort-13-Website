@@ -1,0 +1,29 @@
+{
+  "name": "NSS-Cohort-13-Website",
+  "version": "1.0.0",
+  "description": "The Nashville Software School Cohort 13 website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seeker1911/NSS-Cohort-13-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seeker1911/NSS-Cohort-13-Website/issues"
+  },
+  "homepage": "https://github.com/Seeker1911/NSS-Cohort-13-Website#readme",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.9",
+    "http-server": "^0.9.0",
+    "run-sequence": "^1.2.2"
+  }
+}

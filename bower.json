@@ -1,0 +1,22 @@
+{
+  "name": "NSS-Cohort-13-Website",
+  "description": "The Nashville Software School Cohort 13 website.",
+  "main": "index.js",
+  "authors": [
+    "Chase Ramsey <ramsey.chase@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Seeker1911/NSS-Cohort-13-Website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
