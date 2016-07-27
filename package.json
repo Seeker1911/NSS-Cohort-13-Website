@@ -4,7 +4,7 @@
   "description": "The Nashville Software School Cohort 13 website.",
   "main": "index.js",
   "scripts": {
-    "start": "http-server dist",
+    "start": "http-server public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
