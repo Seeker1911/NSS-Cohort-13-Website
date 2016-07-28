@@ -1,0 +1,70 @@
+// Basic CSS styling
+h2 {
+	display: inline;
+}
+
+.bio {
+	display: none;
+}
+
+.topHeader {
+	display: flex;
+	align-items: center;
+}
+
+.cohort13 {
+	margin-right: auto;
+}
+
+.lucky13 {
+	text-align: center;
+	letter-spacing: 1em;
+	font-size: 6em;
+}
+
+.techs {
+	text-align: center;
+	letter-spacing: 0.4em;
+}
+.cardContainer {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.card {
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.picContainer {
+	border: 3px solid black;
+}
+
+.name,
+.featureProject {
+	color: white;
+	background: black;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0.25em 0;
+	text-align: center;
+}
+
+.iconContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	background: #AD3316;
+}
+
+.icon {
+	margin: 0.5em 0.5em;
+}
+
+// end basic styling
