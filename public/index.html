@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="header">
+    <div class="topHeader">
+      <!-- this will probably end up being an image instead-->
+      <span> >>></span>
+      <h2 class="cohort13">Cohort 13</h2>
+      <h2 class="nssp">Nashville Software School presents:</h2>
+      <span><img src="#" alt="placeholder"></span>
+    </div>
+    <div class="bottomHeader">
+      <!-- will end up as image instead -->
+      <h1 class='lucky13'>LUCKY 13</h1>
+    </div>
+  </section> <!-- end of header section -->
+
+  <section class="techs">
+  <!-- Section for tech scroll -->
+  <p> Firebase Github Python JavaScript SASS jQuery AngularJS Bootstrap Django Monkey Banana CSS HTML </p>
+  </section>
+
+  <div ng-app="lucky-13">
+    <div ng-view>
+    </div>
+  </div>
+
+  <!-- Dependencies -->
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular-route/angular-route.min.js"></script>
+
+  <!-- Author scripts -->
+  <script src="app/app.js"></script>
+  <script src="app/route-config.js"></script>
+  <script src="app/main-ctrl.js"></script>
+  <script src="app/student-factory.js"></script>
+
+</body>
+</html>

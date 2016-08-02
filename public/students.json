@@ -1,0 +1,254 @@
+{
+  "students": [
+    {
+      "name": "Sulaiman Allen",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Sulaiman Allen grew up in Nashville with a passion for technology. After years of pursuing computer science as a hobby, Sule is excited to turn that interest into a full time profession.",
+      "project_name": "Project Name",
+      "project_link": "Project Name",
+      "github": "https://github.com/sulaiman-allen",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/sulaiman-allen"
+    },
+    {
+      "name": "Amari Ashwood",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/ashwoodaa",
+      "portfolio": "#",
+      "linkedin": "www.linkedin.com/in/ashwoodaa"
+    },
+    {
+      "name": "Melanie Baker",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Raised in Pennsylvania and with a background in banking, I left it all behind to follow my dream of becoming a web developer in Nashville. When I am not coding, you can find me traveling the world and taking pictures!",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/MelanieRBaker",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/melanie-baker-510979103"
+    },
+    {
+      "name": "Keith Bradley",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Keith Bradley is a Python and Javascript developer with a passion for creating new things and improving existing systems. His experience in management and technical design inform his methods for software development. Keith also enjoys planning fiction stories and urban exploring when he's not coding.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/keithbradley1",
+      "portfolio": "#",
+      "linkedin": "www.linkedin.com/in/keith-allan-bradley"
+    },
+    {
+      "name": "Castle Crawford",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/castle-c",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/nathan-scott-castle-crawford-079887125?trk=hp-identity-name"
+    },
+    {
+      "name": "Danielle Duer-Scheele",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Danielle Duer, a native Nashvillian, is a professional designer devoted to creating compelling imagery that tells a story. Her passion for design has been evident all through her career. Now, by gaining the skills to work with powerful programming languages, she is wild about giving life to more interactive experiences.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/daniellescheele",
+      "portfolio": "#",
+      "linkedin": "www.linkedin.com/in/danielle-duer"
+    },
+    {
+      "name": "Mark Easterling",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/markeasterling",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/mark-easterling-033887125"
+    },
+    {
+      "name": "Alan Eatherly",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Born and raised in Nashville, Alan Eatherly has long been passionate about cutting-edge technology, healthcare, and sports. He is looking forward to utilizing those passions while growing as a developer.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/AlanE23",
+      "portfolio": "#",
+      "linkedin": "#"
+    },
+    {
+      "name": "Megan Ford",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Megan Ford's background is in project management, time management, people management, and cosplay- all of which have proven greatly useful in learning to program. Her best friend is Trello, her favorite pastime is organizing data into functional structures, and she brings energy, enthusiasm, and a self-starting attitude to her team and community.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "#",
+      "portfolio": "#",
+      "linkedin": "#www.linkedin.com/in/alan-eatherly-b2a88b125"
+    },
+    {
+      "name": "John Green",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/set2k6",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/john-green-0a2a7629"
+    },
+    {
+      "name": "Hannah Hall",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Hannah moved to Nashville in 2009 to attend Belmont. She graduated in 2013 with a degree in Music Business. However, she has always had an interest in web development. Hannah is eager to combine both of her passions after graduating NSS.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/hannahhall",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/hannah-hall-125887125"
+    },
+    {
+      "name": "Tekisha Hammock",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/tekishahammock",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/tekisha-hammock-b3a72510b"
+    },
+    {
+      "name": "Carter Harris",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/carter-harris",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/carter-harris"
+    },
+    {
+      "name": "Simon Herrera",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "With 20 years of experience in the tech industry, Simon Herrera can now add software development to his list of skills. His experience working in a manufacturing team environment combined with his passion for computer programming should serve him well as he integrates into the Nashville development workforce.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/SimonHerrera",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/simon-herrera"
+    },
+    {
+      "name": "Patrick Howell",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/pbhowelljr",
+      "portfolio": "pbhowell.xyz",
+      "linkedin": "www.linkedin.com/in/pbhowelljr"
+    },
+    {
+      "name": "Joe Kane",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/josephkane",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/joe-kane-aa188b125"
+    },
+    {
+      "name": "Michael Mead",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "After retiring from the U.S. Army, Michael Mead chose to invest his leadership experience and dogged mental discipline into software development. He will bring an inexhaustible work ethic, eye for detail, and ability to integrate seamlessly into any team to your project.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/Seeker1911",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/michaelmead007?trk=hp-identity-name"
+    },
+    {
+      "name": "Whitney Mitchell",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "I am a full-stack web developer born and raised in Nashville. I love working with creative people to solve complex problems, and feel unbelievably lucky to be a part of an industry that supports/necessitates continual learning.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/whitney-mitchell",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/whitney-mitchell"
+    },
+    {
+      "name": "Adam Oswalt",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Continuing a lifelong interest in technology, Adam Oswalt is furthering his knowledge and experience as a software developer through building new things and pursing new problems to overcome.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/aoswalt",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/aoswalt"
+    },
+    {
+      "name": "Chase Ramsey",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/chase-ramsey",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/chase-ramsey-157b97bb"
+    },
+    {
+      "name": "Russell Ries",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "A Nashville native, Russell Ries Jr. has held many jobs. He is excited to embark on a career as a full-time developer and looks forward to combining his ever increasing ability as a programmer with his love of local history.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/RussellRiesJr",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/russellriesjr"
+    },
+    {
+      "name": "Damon Romano",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/DamonRomano",
+      "portfolio": "#",
+      "linkedin": "www.linkedin.com/in/damonromano"
+    },
+    {
+      "name": "Cory Tohill",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Cory James Tohill, a Goodlettsville, TN native, has long been interested in computers, cooking, and video games. He hopes to use his passion as a web developer to contribute to the development community while continuing to learn and improve his skills.",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/CoryTohill",
+      "portfolio": "#",
+      "linkedin": "https://www.linkedin.com/in/cory-tohill-149887125?trk=nav_responsive_tab_profile"
+    },
+    {
+      "name": "Ben Wilburn",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "...",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "https://github.com/benwilburn",
+      "portfolio": "#",
+      "linkedin": "www.linkedin.com/in/BenjaminWilburn"
+    },
+    {
+      "name": "Jessica Wynn",
+      "image": "img/TraxxorRusl.jpg",
+      "bio": "Jessica has a passion for learning! Her quest to learn is what led her to become a software developer. Whether it’s sewing, playing board games, or her new venture into gardening she loves applying herself and learning new things",
+      "project_name": "Project Name",
+      "project_link": "#",
+      "github": "github.con/jessicashinjo",
+      "portfolio": "http://jessicawynn.me/",
+      "linkedin": "www.linkedin.com/in/jessicashinjo"
+    }
+  ]
+}
