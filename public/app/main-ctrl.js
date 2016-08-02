@@ -2,6 +2,6 @@ angular.module('lucky-13')
   .controller('MainCtrl', function($scope, StudentFactory) {
 
     const main = this;
-    main.students = StudentFactory.getStudentData();
+    main.students = StudentFactory.returnStudentData();
 
   })

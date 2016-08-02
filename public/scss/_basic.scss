@@ -40,8 +40,13 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
+
 .picContainer {
 	border: 3px solid black;
+}
+
+.picContainer img {
+	max-width: 300px;
 }
 
 .name,

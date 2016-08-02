@@ -1,13 +1,18 @@
-angular.module('StudentFactory', function($http) {
+angular.module('lucky-13')
+  .factory('StudentFactory', function($http) {
 
   studentData = {}
 
   return {
     getStudentData: () => {
-      return $http.get('students.json')
+      $http.get('students.json')
         .then((res) => {
-          studentData = res;
+          studentData = res.data.students;
         })
+    },
+
+    returnStudentData: () => {
+      return studentData;
     }
   }
 })
