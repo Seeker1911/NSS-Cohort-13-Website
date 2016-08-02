@@ -1,3 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300|Montserrat:400,700';
+body {
+  font-family: "Lato", sans-serif;
+  background: #F9F8F2; }
+
+h1 {
+  font-family: "Montserrat";
+  color: #022B3A;
+  font-weight: 700; }
+
 h2 {
   display: inline; }
 
@@ -13,8 +23,7 @@ h2 {
 
 .lucky13 {
   text-align: center;
-  letter-spacing: 1em;
-  font-size: 6em; }
+  font-size: 18em; }
 
 .techs {
   text-align: center;
@@ -24,37 +33,36 @@ h2 {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 0 7em; }
 
 .card {
-  margin: 1em;
+  margin: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
 
-.picContainer {
-  border: 3px solid black; }
-
 .picContainer img {
-  max-width: 300px; }
+  max-width: 250px; }
 
 .name,
 .featureProject {
-  color: white;
-  background: black;
+  color: #F9F8F2;
+  background: #2A6AAA;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0.25em 0;
-  text-align: center; }
+  text-align: center;
+  font-weight: 300; }
 
 .iconContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background: #AD3316; }
+  background: #F6BD60; }
 
 .icon {
   margin: 0.5em 0.5em; }

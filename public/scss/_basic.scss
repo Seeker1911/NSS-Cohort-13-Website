@@ -1,4 +1,26 @@
 // Basic CSS styling
+@import 'https://fonts.googleapis.com/css?family=Lato:300|Montserrat:400,700';
+
+$font-stack: 'Lato', sans-serif;
+$header: 'Montserrat';
+
+$black: #022B3A;
+$white: #F9F8F2;
+$red-accent: #E63946;
+$blue-accent: #2A6AAA;
+$yellow-accent: #F6BD60;
+
+body {
+	font-family: $font-stack;
+	background: $white;
+}
+
+h1 {
+	font-family: $header;
+	color: $black;
+	font-weight: 700;
+}
+
 h2 {
 	display: inline;
 }
@@ -18,8 +40,8 @@ h2 {
 
 .lucky13 {
 	text-align: center;
-	letter-spacing: 1em;
-	font-size: 6em;
+	// letter-spacing: 1em;
+	font-size: 18em;
 }
 
 .techs {
@@ -31,10 +53,11 @@ h2 {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
+	padding: 0 7em;
 }
 
 .card {
-	margin: 1em;
+	margin: 2em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -42,22 +65,23 @@ h2 {
 }
 
 .picContainer {
-	border: 3px solid black;
+	// border: 3px solid $black;
 }
 
 .picContainer img {
-	max-width: 300px;
+	max-width: 250px;
 }
 
 .name,
 .featureProject {
-	color: white;
-	background: black;
+	color: $white;
+	background: $blue-accent;
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0.25em 0;
 	text-align: center;
+	font-weight: 300;
 }
 
 .iconContainer {
@@ -65,7 +89,7 @@ h2 {
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	background: #AD3316;
+	background: $yellow-accent;
 }
 
 .icon {
