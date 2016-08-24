@@ -1,4 +1,4 @@
 node_modules
 public/lib
 .DS_Store
-npm-debug.log.3151209458
+npm-debug.log*
