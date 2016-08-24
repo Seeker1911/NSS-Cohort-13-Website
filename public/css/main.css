@@ -1,23 +1,35 @@
 body {
   background: url("../img/class_background.png") fixed;
-  background-size: fill;
   background-repeat: repeat; }
 
 h2 {
-  display: inline; }
+  display: inline;
+  font-family: "News Cycle", sans-serif; }
+
+h3 {
+  font-family: "News Cycle", sans-serif; }
 
 .bio {
   display: none; }
 
 .topHeader {
   display: flex;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+  @media screen and (max-width: 660px) {
+    .topHeader {
+      display: none; } }
 
 .cohort13 {
   margin-right: auto; }
 
 .lucky13 {
   width: 100%; }
+
+.python-logo {
+  max-width: 8%;
+  margin: 20px; }
 
 .techs {
   text-align: center;

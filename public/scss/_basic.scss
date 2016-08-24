@@ -1,12 +1,20 @@
 // Basic CSS styling
+$break-md: 660px;
+$subtitle-stack: 'News Cycle', sans-serif;
+$para-stack: 'Lato', sans-serif;
+
 body {
 	background: url('../img/class_background.png') fixed;
-	background-size: fill;
 	background-repeat: repeat;
 }
 
 h2 {
 	display: inline;
+	font-family: $subtitle-stack;
+}
+
+h3 {
+	font-family: $subtitle-stack;
 }
 
 .bio {
@@ -15,7 +23,12 @@ h2 {
 
 .topHeader {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
+	width: 100%;
+	@media screen and (max-width: $break-md) {
+		display: none
+	}
 }
 
 .cohort13 {
@@ -24,6 +37,11 @@ h2 {
 
 .lucky13 {
 	width: 100%;
+}
+
+.python-logo {
+	max-width: 8%;
+	margin: 20px
 }
 
 .techs {
