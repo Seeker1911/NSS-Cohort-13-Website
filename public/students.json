@@ -8,7 +8,8 @@
       "project_link": "Project Name",
       "github": "https://github.com/sulaiman-allen",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/sulaiman-allen"
+      "linkedin": "https://www.linkedin.com/in/sulaiman-allen",
+      "color_class": "blue"
     },
     {
       "name": "Amari Ashwood",
@@ -18,7 +19,8 @@
       "project_link": "#",
       "github": "https://github.com/ashwoodaa",
       "portfolio": "#",
-      "linkedin": "www.linkedin.com/in/ashwoodaa"
+      "linkedin": "www.linkedin.com/in/ashwoodaa",
+      "color_class": "red"
     },
     {
       "name": "Melanie Baker",
@@ -28,7 +30,8 @@
       "project_link": "#",
       "github": "https://github.com/MelanieRBaker",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/melanie-baker-510979103"
+      "linkedin": "https://www.linkedin.com/in/melanie-baker-510979103",
+      "color_class": "green"
     },
     {
       "name": "Keith Bradley",
@@ -38,7 +41,8 @@
       "project_link": "#",
       "github": "https://github.com/keithbradley1",
       "portfolio": "#",
-      "linkedin": "www.linkedin.com/in/keith-allan-bradley"
+      "linkedin": "www.linkedin.com/in/keith-allan-bradley",
+      "color_class": "yellow"
     },
     {
       "name": "Castle Crawford",
@@ -48,7 +52,8 @@
       "project_link": "#",
       "github": "https://github.com/castle-c",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/nathan-scott-castle-crawford-079887125?trk=hp-identity-name"
+      "linkedin": "https://www.linkedin.com/in/nathan-scott-castle-crawford-079887125?trk=hp-identity-name",
+      "color_class": "purple"
     },
     {
       "name": "Danielle Duer-Scheele",
@@ -58,7 +63,8 @@
       "project_link": "#",
       "github": "https://github.com/daniellescheele",
       "portfolio": "#",
-      "linkedin": "www.linkedin.com/in/danielle-duer"
+      "linkedin": "www.linkedin.com/in/danielle-duer",
+      "color_class": "blue"
     },
     {
       "name": "Mark Easterling",
@@ -68,7 +74,8 @@
       "project_link": "#",
       "github": "https://github.com/markeasterling",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/mark-easterling-033887125"
+      "linkedin": "https://www.linkedin.com/in/mark-easterling-033887125",
+      "color_class": "red"
     },
     {
       "name": "Alan Eatherly",
@@ -78,7 +85,8 @@
       "project_link": "#",
       "github": "https://github.com/AlanE23",
       "portfolio": "#",
-      "linkedin": "#"
+      "linkedin": "#",
+      "color_class": "green"
     },
     {
       "name": "Megan Ford",
@@ -88,7 +96,8 @@
       "project_link": "#",
       "github": "#",
       "portfolio": "#",
-      "linkedin": "#www.linkedin.com/in/alan-eatherly-b2a88b125"
+      "linkedin": "#www.linkedin.com/in/alan-eatherly-b2a88b125",
+      "color_class": "blue"
     },
     {
       "name": "John Green",
@@ -98,7 +107,8 @@
       "project_link": "#",
       "github": "https://github.com/set2k6",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/john-green-0a2a7629"
+      "linkedin": "https://www.linkedin.com/in/john-green-0a2a7629",
+      "color_class": "purple"
     },
     {
       "name": "Hannah Hall",
@@ -108,7 +118,8 @@
       "project_link": "#",
       "github": "https://github.com/hannahhall",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/hannah-hall-125887125"
+      "linkedin": "https://www.linkedin.com/in/hannah-hall-125887125",
+      "color_class": "yellow"
     },
     {
       "name": "Tekisha Hammock",
@@ -118,7 +129,8 @@
       "project_link": "#",
       "github": "https://github.com/tekishahammock",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/tekisha-hammock-b3a72510b"
+      "linkedin": "https://www.linkedin.com/in/tekisha-hammock-b3a72510b",
+      "color_class": "blue"
     },
     {
       "name": "Carter Harris",
@@ -128,7 +140,8 @@
       "project_link": "#",
       "github": "https://github.com/carter-harris",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/carter-harris"
+      "linkedin": "https://www.linkedin.com/in/carter-harris",
+      "color_class": "green"
     },
     {
       "name": "Simon Herrera",
@@ -138,7 +151,8 @@
       "project_link": "#",
       "github": "https://github.com/SimonHerrera",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/simon-herrera"
+      "linkedin": "https://www.linkedin.com/in/simon-herrera",
+      "color_class": "red"
     },
     {
       "name": "Patrick Howell",
@@ -148,7 +162,8 @@
       "project_link": "#",
       "github": "https://github.com/pbhowelljr",
       "portfolio": "pbhowell.xyz",
-      "linkedin": "www.linkedin.com/in/pbhowelljr"
+      "linkedin": "www.linkedin.com/in/pbhowelljr",
+      "color_class": "yellow"
     },
     {
       "name": "Joe Kane",
@@ -158,7 +173,8 @@
       "project_link": "#",
       "github": "https://github.com/josephkane",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/joe-kane-aa188b125"
+      "linkedin": "https://www.linkedin.com/in/joe-kane-aa188b125",
+      "color_class": "purple"
     },
     {
       "name": "Michael Mead",
@@ -168,7 +184,8 @@
       "project_link": "#",
       "github": "https://github.com/Seeker1911",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/michaelmead007?trk=hp-identity-name"
+      "linkedin": "https://www.linkedin.com/in/michaelmead007?trk=hp-identity-name",
+      "color_class": "blue"
     },
     {
       "name": "Whitney Mitchell",
@@ -178,7 +195,8 @@
       "project_link": "#",
       "github": "https://github.com/whitney-mitchell",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/whitney-mitchell"
+      "linkedin": "https://www.linkedin.com/in/whitney-mitchell",
+      "color_class": "red"
     },
     {
       "name": "Adam Oswalt",
@@ -188,7 +206,8 @@
       "project_link": "#",
       "github": "https://github.com/aoswalt",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/aoswalt"
+      "linkedin": "https://www.linkedin.com/in/aoswalt",
+      "color_class": "green"
     },
     {
       "name": "Chase Ramsey",
@@ -198,7 +217,8 @@
       "project_link": "#",
       "github": "https://github.com/chase-ramsey",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/chase-ramsey-157b97bb"
+      "linkedin": "https://www.linkedin.com/in/chase-ramsey-157b97bb",
+      "color_class": "purple"
     },
     {
       "name": "Russell Ries",
@@ -208,7 +228,8 @@
       "project_link": "#",
       "github": "https://github.com/RussellRiesJr",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/russellriesjr"
+      "linkedin": "https://www.linkedin.com/in/russellriesjr",
+      "color_class": "red"
     },
     {
       "name": "Damon Romano",
@@ -218,7 +239,8 @@
       "project_link": "#",
       "github": "https://github.com/DamonRomano",
       "portfolio": "#",
-      "linkedin": "www.linkedin.com/in/damonromano"
+      "linkedin": "www.linkedin.com/in/damonromano",
+      "color_class": "yellow"
     },
     {
       "name": "Cory Tohill",
@@ -228,7 +250,8 @@
       "project_link": "#",
       "github": "https://github.com/CoryTohill",
       "portfolio": "#",
-      "linkedin": "https://www.linkedin.com/in/cory-tohill-149887125?trk=nav_responsive_tab_profile"
+      "linkedin": "https://www.linkedin.com/in/cory-tohill-149887125?trk=nav_responsive_tab_profile",
+      "color_class": "blue"
     },
     {
       "name": "Ben Wilburn",
@@ -238,7 +261,8 @@
       "project_link": "#",
       "github": "https://github.com/benwilburn",
       "portfolio": "#",
-      "linkedin": "www.linkedin.com/in/BenjaminWilburn"
+      "linkedin": "www.linkedin.com/in/BenjaminWilburn",
+      "color_class": "green"
     },
     {
       "name": "Jessica Wynn",
@@ -248,7 +272,8 @@
       "project_link": "#",
       "github": "github.con/jessicashinjo",
       "portfolio": "http://jessicawynn.me/",
-      "linkedin": "www.linkedin.com/in/jessicashinjo"
+      "linkedin": "www.linkedin.com/in/jessicashinjo",
+      "color_class": "purple"
     }
   ]
 }

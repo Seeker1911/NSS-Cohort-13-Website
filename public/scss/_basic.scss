@@ -2,10 +2,16 @@
 $break-md: 660px;
 $subtitle-stack: 'News Cycle', sans-serif;
 $para-stack: 'Lato', sans-serif;
+$black-color: #333;
 
 body {
 	background: url('../img/class_background.png') fixed;
 	background-repeat: repeat;
+}
+
+.featureProject:hover {
+	text-decoration: none;
+	color: #CCC;
 }
 
 h2 {
@@ -33,6 +39,7 @@ h3 {
 
 .cohort13 {
 	margin-right: auto;
+	max-width: 20%;
 }
 
 .lucky13 {
@@ -40,7 +47,7 @@ h3 {
 }
 
 .python-logo {
-	max-width: 8%;
+	max-width: 5%;
 	margin: 20px
 }
 
@@ -64,17 +71,17 @@ h3 {
 }
 
 .picContainer {
-	border: 3px solid black;
+	border: 3px solid $black-color;
 }
 
 .picContainer img {
-	max-width: 300px;
+	max-width: 250px;
 }
 
 .name,
 .featureProject {
 	color: white;
-	background: black;
+	background: $black-color;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -91,7 +98,27 @@ h3 {
 }
 
 .icon {
-	margin: 0.5em 0.5em;
+	margin: 1em 0.5em;
 }
 
-// end basic styling
+.blue {
+	background: #2DB7A4;
+}
+
+.red {
+	background: #AD3316;
+}
+
+.green {
+	background: #25521A;
+}
+
+.yellow {
+	background: #A08C2C;
+}
+
+.purple {
+	background: #674172;
+}
+
+// // end basic styling
