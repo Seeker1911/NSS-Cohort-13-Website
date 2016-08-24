@@ -1,3 +1,8 @@
+body {
+  background: url("../img/class_background.png") fixed;
+  background-size: fill;
+  background-repeat: repeat; }
+
 h2 {
   display: inline; }
 
