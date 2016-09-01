@@ -1,26 +1,20 @@
 <section class="cardContainer">
-  <!-- <div class="container"> -->
-    <!-- <div class="row"> -->
-      <!-- <div class="column col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="student in main.students"> -->
-        <div class="card" ng-repeat="student in main.students">
-          <div class="picContainer">
-            <h3 class="name">{{student.name}}</h3>
-            <img ng-src="{{student.image}}" alt="placeholder" class="">
-            <!-- link to github or deployed, their choice -->
-            <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h3 class="featureProject">{{student.project_name}}</h3></a>
-          </div>
-          <div class="iconContainer">
-            <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
-            <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
-            <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></img></a> <!-- personal site- bootstrap gyphicon -->
-            <a href="#" title="Biography"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></img></a> <!-- shows bio -->
-          </div>
-          <!-- div for bio area, currently hidden -->
-          <div class="bio">
-            <p>{{studend.bio}}</p>
-          </div>
-        </div> <!-- end of card -->
-      <!-- </div> end of column -->
-    <!-- </div> end of row -->
-  <!-- </div> end of bootstrap container -->
+  <div class="card" ng-repeat="student in main.students">
+    <div class="picContainer">
+      <h3 class="name">{{student.name}}</h3>
+      <img ng-src="{{student.image}}" alt="placeholder" class="">
+      <!-- link to github or deployed, their choice -->
+      <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h3 class="featureProject">{{student.project_name}}</h3></a>
+    </div>
+    <div class="iconContainer" ng-class="student.color_class">
+      <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
+      <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
+      <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></img></a> <!-- personal site- bootstrap gyphicon -->
+      <a href="#" title="Biography"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></img></a> <!-- shows bio -->
+    </div>
+    <!-- div for bio area, currently hidden -->
+    <div class="bio">
+      <p>{{studend.bio}}</p>
+    </div>
+  </div> <!-- end of card -->
 </section> <!-- end of card container -->
