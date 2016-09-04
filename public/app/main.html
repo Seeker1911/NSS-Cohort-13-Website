@@ -1,4 +1,4 @@
-<section class="cardContainer">
+<section ng-controller='MainCtrl' class="cardContainer">
   <div class="card" ng-repeat="student in main.students">
     <div class="picContainer">
       <h3 class="name">{{student.name}}</h3>
@@ -10,11 +10,11 @@
       <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
       <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
       <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></img></a> <!-- personal site- bootstrap gyphicon -->
-      <a href="#" title="Biography"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></img></a> <!-- shows bio -->
+      <a ng-click="isCollapsed = !isCollapsed" title="Biography"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio --->
     </div>
     <!-- div for bio area, currently hidden -->
-    <div class="bio">
-      <p>{{studend.bio}}</p>
+    <div collapse="isCollapsed">
+      <div class='card card-block'>{{student.bio}}</div>
     </div>
   </div> <!-- end of card -->
 </section> <!-- end of card container -->
