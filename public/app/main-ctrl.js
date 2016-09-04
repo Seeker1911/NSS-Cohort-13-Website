@@ -4,5 +4,5 @@ angular.module('lucky-13')
     const main = this;
     main.students = StudentFactory.returnStudentData();
 
-    $scope.isCollapsed = false;
+    $scope.isCollapsed = true;
   })
