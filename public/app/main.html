@@ -10,11 +10,13 @@
       <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
       <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
       <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></a> <!-- personal site- bootstrap gyphicon -->
-      <a ng-click="isCollapsed = !isCollapsed"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio --->
-    </div>
-    <!-- div for bio area, currently hidden -->
-    <div class='bio'>
-      <div class='card'>{{student.bio}}</div>
+      <span uib-dropdown on-toggle="toggled(open)">
+        <a href class="bioDropdown" uib-dropdown-toggle><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio -->
+        <!-- div for bio area, currently hidden -->
+        <div class='bio dropdown-menu' uid-dropdown aria-labelledby="bioDropdown">
+          <div class='card'>{{student.bio}}</div>
+        </div>
+      </span>
     </div>
   </div> <!-- end of card -->
 </section> <!-- end of card container -->
