@@ -1,13 +1,13 @@
 // Basic CSS styling
 $break-md: 660px;
-$subtitle-stack: 'News Cycle', sans-serif;
+$subtitle-stack: 'Futura', sans-serif;
 $para-stack: 'Lato', sans-serif;
 $black-color: #333;
 
 body {
 	background: url('../img/class_background.png') fixed;
 	background-repeat: repeat;
-	padding: 0 15px;
+	padding: 0px;
 }
 
 .featureProject:hover {
@@ -52,15 +52,16 @@ h3 {
 	margin: 20px
 }
 
-.techs {
+/*.techs {
 	text-align: center;
 	letter-spacing: 0.4em;
-}
+}*/
 .cardContainer {
 	display: inline-flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
+	padding-top: 50px
 }
 
 .card {
@@ -103,7 +104,7 @@ h3 {
 }
 
 .blue {
-	background: #2DB7A4;
+	background: #38b6a3;
 }
 
 .red {
@@ -111,15 +112,15 @@ h3 {
 }
 
 .green {
-	background: #25521A;
+	background: #28520e;
 }
 
 .yellow {
-	background: #A08C2C;
+	background: #a08d09;
 }
 
 .purple {
-	background: #674172;
+	background: #380431;
 }
 
 // // end basic styling

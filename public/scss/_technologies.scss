@@ -1,0 +1,19 @@
+#techs{
+/*	position: fixed;*/
+	bottom: 20%;
+	left:20%;
+	width:100%;
+}
+#techsContainer {
+	width: 100%;
+	height: 60px;
+	opacity: 70%;
+	padding: 50px;
+	background-image: url("../img/TECH1.png");
+	animation: techs 20s linear infinite;
+
+}
+@keyframes techs{
+   from { background-position: 0px; }
+     to { background-position: 2800px; }
+}
