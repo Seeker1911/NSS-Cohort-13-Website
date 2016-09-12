@@ -86,6 +86,7 @@ h3 {
 	max-width: 200px;
 }
 
+
 .name,
 .featureProject {
 	color: white;
@@ -127,6 +128,17 @@ h3 {
 
 .purple {
 	background: #380431;
+}
+
+footer{
+	width: 100%;
+	.websiteGroupPic {
+		height: 10px;
+	}
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 
 // // end basic styling

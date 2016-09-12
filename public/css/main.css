@@ -100,6 +100,14 @@ h3 {
 .purple {
   background: #380431; }
 
+footer {
+  width: 100%; }
+  footer .websiteGroupPic {
+    height: 10px; }
+
+.navbar {
+  margin-bottom: 0; }
+
 #techs {
   /*	position: fixed;*/
   bottom: 20%;
