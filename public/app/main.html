@@ -1,8 +1,9 @@
 <section ng-controller='MainCtrl' class="cardContainer">
-  <div class="card" ng-repeat="student in main.students">
+  <div class="card" ng-repeat="(key, student) in main.students">
     <div class="picContainer">
       <h3 class="name">{{student.name}}</h3>
-      <img ng-src="{{student.image}}" alt="placeholder" class="">
+      <img ng-src="{{student.image}}" alt="placeholder" ng-show='picture'>
+      <p ng-hide='picture'>{{ student.bio }}</p>
       <!-- link to github or deployed, their choice -->
       <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h3 class="featureProject">{{student.project_name}}</h3></a>
     </div>
@@ -10,13 +11,41 @@
       <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
       <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
       <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></a> <!-- personal site- bootstrap gyphicon -->
-      <span uib-dropdown on-toggle="toggled(open)">
-        <a href class="bioDropdown" uib-dropdown-toggle><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio -->
-        <!-- div for bio area, currently hidden -->
-        <div class='bio dropdown-menu' uid-dropdown aria-labelledby="bioDropdown">
-          <div class='card'>{{student.bio}}</div>
-        </div>
-      </span>
+      <a href class="" ng-click="picture = !picture"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio -->
     </div>
   </div> <!-- end of card -->
 </section> <!-- end of card container -->
+<!-- <a href class="" ng-click="setId(key)" data-toggle='modal' data-target='#{{ key }}'><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> --> <!-- shows bio -->
+<!-- div for bio area, currently hidden -->
+<!-- <div class='bio modal fade' id="{{ key }}" aria-labelledby="">
+  <div class="modal-content">
+    <h4 class='modal-title'>{{ student.name }}</h4>
+    <div class='card modal-body'>{{student.bio}}</div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div> -->
+<!-- Modal -->
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+ Launch demo modal
+</button> -->

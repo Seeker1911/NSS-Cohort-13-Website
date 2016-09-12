@@ -73,11 +73,22 @@ h3 {
 
 .picContainer {
 	border: 3px solid $black-color;
+	img {
+		max-width: 200px;
+	}
+	p {
+		width: 200px;
+		height: 200px;
+		margin: 0;
+		background-color: white;
+		padding: 0.5em;
+		overflow: auto;
+	}
 }
 
-.picContainer img {
-	max-width: 200px;
-}
+// .picContainer img {
+// 	max-width: 200px;
+// }
 
 .name,
 .featureProject {
