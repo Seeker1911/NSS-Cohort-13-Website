@@ -25,6 +25,10 @@ h3 {
 	font-family: $subtitle-stack;
 }
 
+footer {
+	font-family: $subtitle-stack;
+}
+
 .bio {
 	display: none;
 }
@@ -38,7 +42,6 @@ h3 {
 		display: none
 	}
 }
-
 
 .cohort13 {
 	margin-right: auto;
@@ -61,21 +64,26 @@ h3 {
 .cardContainer {
 	display: inline-flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: flex-start;
+	// align-content: flex-start;
 	justify-content: space-around;
 	padding-top: 50px
 }
 
 .card {
-	margin: 1.5em;
+	margin: 1.2em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
 }
 
 .picContainer {
-	border: 3px solid $black-color;
+	border-left: 0.7em;
+	border-right: 0.7em;
+	border-style: solid;
+	border-color: $black-color;
 	img {
 		max-width: 200px;
 	}
@@ -92,6 +100,7 @@ h3 {
 // .picContainer img {
 // 	max-width: 200px;
 // }
+
 
 .name,
 .featureProject {
@@ -134,6 +143,57 @@ h3 {
 
 .purple {
 	background: #380431;
+}
+
+.black {
+	background: #000;
+}
+
+footer{
+	margin-top: 5em;
+	text-align: center;
+	padding: 2em;
+	h3 {
+		letter-spacing: 0.1em;
+		color: white;
+		text-decoration: underline;
+	}
+	h5 {
+		letter-spacing: 0.1em;
+		text-decoration: underline;
+		color: white;
+	}
+	p {
+		color: white;
+		font-size: 0.8em;
+		letter-spacing: 0.3em;
+		a {
+			font-size: 0.95em;
+			color: white;
+		}
+	}
+	.staffPic {
+		text-align: center;
+		.websiteGroupPic {
+			width: 55em;
+			height: 13em;
+			max-width: 100%;
+		}
+		.resources {
+			text-align: center;
+		}
+		.staffNames {
+			text-align: center;
+		}
+	}
+}
+
+.leadership {
+	margin-bottom: 1.5em;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 
 // // end basic styling
