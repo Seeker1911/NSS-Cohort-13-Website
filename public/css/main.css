@@ -82,7 +82,7 @@ h3 {
   margin: 1em 0.5em; }
 
 .blue {
-  background: #38b6a3; }
+  background: #6ba8a4; }
 
 .red {
   background: #AD3316; }
@@ -108,7 +108,7 @@ h3 {
   opacity: 70%;
   padding: 50px;
   background-image: url("../img/TECH1.png");
-  animation: techs 20s linear infinite; }
+  animation: techs 35s linear infinite; }
 
 @keyframes techs {
   from {
