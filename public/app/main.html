@@ -1,8 +1,9 @@
 <section ng-controller='MainCtrl' class="cardContainer">
-  <div class="card" ng-repeat="student in main.students">
+  <div class="card" ng-repeat="(key, student) in main.students">
     <div class="picContainer">
       <h3 class="name">{{student.name}}</h3>
-      <img ng-src="{{student.image}}" alt="placeholder" class="">
+      <img ng-src="{{student.image}}" alt="placeholder" ng-show='picture'>
+      <p ng-hide='picture'>{{ student.bio }}</p>
       <!-- link to github or deployed, their choice -->
       <!-- <p class="featureProject">Featured Project:</p> -->
       <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h4 class="featureProject">{{student.project_name}}</h4></a>
@@ -10,12 +11,8 @@
     <div class="iconContainer" ng-class="student.color_class">
       <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
       <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
-      <a ng-if="student.portfolio !== '#'" href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></a> <!-- personal site- bootstrap gyphicon -->
-      <a ng-click="isCollapsed = !isCollapsed"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio --->
-    </div>
-    <!-- div for bio area, currently hidden -->
-    <div class='bio'>
-      <div class='card'>{{student.bio}}</div>
+      <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></a> <!-- personal site- bootstrap gyphicon -->
+      <a href class="" ng-click="picture = !picture"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio -->
     </div>
   </div> <!-- end of card -->
 </section> <!-- end of card container -->

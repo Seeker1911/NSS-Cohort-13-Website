@@ -61,9 +61,15 @@ h3 {
   border-right: 0.7em;
   border-style: solid;
   border-color: #333; }
-
-.picContainer img {
-  max-width: 200px; }
+  .picContainer img {
+    max-width: 200px; }
+  .picContainer p {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    background-color: white;
+    padding: 0.5em;
+    overflow: auto; }
 
 .name,
 .featureProject {
