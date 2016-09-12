@@ -110,6 +110,57 @@ h3 {
 .purple {
   background: #380431; }
 
+.black {
+  background: #000; }
+
+footer {
+  margin-top: 5em;
+  text-align: center;
+  padding: 2em; }
+  footer h3 {
+    letter-spacing: 0.1em;
+    color: white;
+    text-decoration: underline; }
+  footer h5 {
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    color: white; }
+  footer p {
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.3em; }
+    footer p a {
+      font-size: 0.95em;
+      color: white; }
+  footer .staffPic {
+    text-align: center; }
+    footer .staffPic .websiteGroupPic {
+      width: 45em;
+      height: 15em;
+      max-width: 100%; }
+    @media (max-width: 50em) {
+      footer .staffPic .staffPic .websiteGroupPic {
+        width: 40em;
+        height: 15em;
+        max-width: 100%; } }
+    @media (max-width: 40em) {
+      footer .staffPic .staffPic .websiteGroupPic {
+        width: 26em;
+        height: 10px;
+        max-width: 100%; } }
+    @media (max-width: 30em) {
+      footer .staffPic .staffPic .websiteGroupPic {
+        width: 15em;
+        height: 20px;
+        max-width: 100%; } }
+    footer .staffPic .resources {
+      text-align: center; }
+    footer .staffPic .staffNames {
+      text-align: center; }
+
+.leadership {
+  margin-bottom: 1.5em; }
+
 #techs {
   /*	position: fixed;*/
   bottom: 20%;

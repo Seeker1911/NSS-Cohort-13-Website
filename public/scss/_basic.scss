@@ -145,4 +145,87 @@ h3 {
 	background: #380431;
 }
 
+.black {
+	background: #000
+}
+
+footer{
+	margin-top: 5em;
+	text-align: center;
+	padding: 2em;
+	h3 {
+		letter-spacing: 0.1em;
+		color: white;
+		text-decoration: underline;
+	}
+	h5 {
+		letter-spacing: 0.1em;
+		text-decoration: underline;
+		color: white;
+	}
+	p {
+		color: white;
+		font-size: 0.8em;
+		letter-spacing: 0.3em;
+		a {
+			font-size: 0.95em;
+			color: white;
+		}
+	}
+	// @media(max-width: 20em){
+	// 	.staffPic {
+	// 		.websiteGroupPic{
+	// 			width: 7em;
+	// 			height: 10px;
+	// 			max-width: 100%;
+	// 		}
+	// 	}
+	// }
+	.staffPic {
+		text-align: center;
+		.websiteGroupPic {
+			width: 45em;
+			height: 15em;
+			max-width: 100%;
+		}
+		@media(max-width: 50em){
+			.staffPic {
+				.websiteGroupPic{
+					width: 40em;
+					height: 15em;
+					max-width: 100%;
+				}
+			}
+		}
+		@media(max-width: 40em){
+			.staffPic {
+				.websiteGroupPic{
+					width: 26em;
+					height: 10px;
+					max-width: 100%;
+				}
+			}
+		}
+		@media(max-width: 30em){
+			.staffPic {
+				.websiteGroupPic{
+					width: 15em;
+					height: 20px;
+					max-width: 100%;
+				}
+			}
+		}
+		.resources {
+			text-align: center;
+		}
+		.staffNames {
+			text-align: center;
+		}
+	}
+}
+
+.leadership {
+	margin-bottom: 1.5em;
+}
+
 // // end basic styling
