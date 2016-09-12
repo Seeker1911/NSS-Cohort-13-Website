@@ -44,19 +44,23 @@ h3 {
 .cardContainer {
   display: inline-flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   padding-top: 50px; }
 
 .card {
-  margin: 1.5em;
+  margin: 1.2em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  box-sizing: border-box; }
 
 .picContainer {
-  border: 3px solid #333; }
+  border-left: 0.7em;
+  border-right: 0.7em;
+  border-style: solid;
+  border-color: #333; }
 
 .picContainer img {
   max-width: 200px; }
