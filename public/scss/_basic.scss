@@ -25,6 +25,10 @@ h3 {
 	font-family: $subtitle-stack;
 }
 
+footer {
+	font-family: $subtitle-stack;
+}
+
 .bio {
 	display: none;
 }
@@ -141,11 +145,51 @@ h3 {
 	background: #380431;
 }
 
+.black {
+	background: #000;
+}
+
 footer{
-	width: 100%;
-	.websiteGroupPic {
-		height: 10px;
+	margin-top: 5em;
+	text-align: center;
+	padding: 2em;
+	h3 {
+		letter-spacing: 0.1em;
+		color: white;
+		text-decoration: underline;
 	}
+	h5 {
+		letter-spacing: 0.1em;
+		text-decoration: underline;
+		color: white;
+	}
+	p {
+		color: white;
+		font-size: 0.8em;
+		letter-spacing: 0.3em;
+		a {
+			font-size: 0.95em;
+			color: white;
+		}
+	}
+	.staffPic {
+		text-align: center;
+		.websiteGroupPic {
+			width: 55em;
+			height: 13em;
+			max-width: 100%;
+		}
+		.resources {
+			text-align: center;
+		}
+		.staffNames {
+			text-align: center;
+		}
+	}
+}
+
+.leadership {
+	margin-bottom: 1.5em;
 }
 
 .navbar {
