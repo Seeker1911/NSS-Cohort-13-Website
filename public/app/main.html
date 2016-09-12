@@ -2,7 +2,7 @@
   <div class="card" ng-repeat="(key, student) in main.students">
     <div class="picContainer">
       <h3 class="name">{{student.name}}</h3>
-      <img ng-src="{{student.image}}" alt="placeholder" ng-show='picture'>
+      <img ng-src="{{student.image}}" alt="placeholder">
       <p ng-hide='picture'>{{ student.bio }}</p>
       <!-- link to github or deployed, their choice -->
       <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h3 class="featureProject">{{student.project_name}}</h3></a>
