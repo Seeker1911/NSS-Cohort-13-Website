@@ -54,7 +54,10 @@ h3 {
 
 .picContainer {
   position: relative;
-  border: 3px solid #333; }
+  border-left: 0.7em;
+  border-right: 0.7em;
+  border-style: solid;
+  border-color: #333; }
   .picContainer img {
     max-width: 200px; }
   .picContainer p {
