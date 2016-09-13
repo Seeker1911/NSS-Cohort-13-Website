@@ -10,7 +10,7 @@
     <div class="iconContainer" ng-class="student.color_class">
       <a href="{{student.github}}" target="_blank" title="Github"><img src="/img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
       <a href="{{student.linkedin}}" target="_blank" title="LinkedIn"><img src="/img/In-White-34px-R.png" alt="" class="icon"></a> <!-- linkedin -->
-      <a href="{{student.portfolio}}" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></a> <!-- personal site- bootstrap gyphicon -->
+      <a href="{{student.portfolio}}" ng-if="student.portfolio !== '#'" target="_blank" title="Personal Site"><img src="/img/glyphicons-4-user.png" alt="" class="icon"></a> <!-- personal site- bootstrap gyphicon -->
       <a href class="" ng-click="picture = !picture"><img src="/img/glyphicons-188-more.png" alt="" class="icon"></a> <!-- shows bio -->
     </div>
   </div> <!-- end of card -->
