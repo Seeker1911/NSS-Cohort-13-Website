@@ -4,11 +4,6 @@ angular.module('lucky-13')
       .when('/', {
         templateUrl: 'app/main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main',
-        resolve: {
-        studentData: function(StudentFactory) {
-          return StudentFactory.getStudentData();
-        }
-      }
+        controllerAs: 'main'
       })
   })
