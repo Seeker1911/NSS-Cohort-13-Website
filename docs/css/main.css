@@ -174,7 +174,8 @@ footer {
 
 .moveRight {
   text-align: right;
-  margin-right: 2.3em; }
+  margin-right: 2.3em;
+  margin-bottom: 2em; }
 
 #techs {
   /*	position: fixed;*/
