@@ -5,8 +5,8 @@ const sass = require('gulp-sass')
 const del = require('del')
 const runSequence = require('run-sequence')
 
-const sourcePath = './public/scss/**/*.scss'
-const compilePath = './public/css'
+const sourcePath = './docs/scss/**/*.scss'
+const compilePath = './docs/css'
 
 gulp.task('sass:compile', () => (
   gulp.src(sourcePath)
