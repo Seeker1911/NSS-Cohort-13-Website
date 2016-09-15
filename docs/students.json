@@ -14,7 +14,7 @@
     {
       "name": "Amari Ashwood",
       "image": "img/NSS_website_photos/AmariAshwood.jpg",
-      "bio": "...",
+      "bio": "Amari has always been very passionate about technology and the possibilities to improve everyone's day to day life. Programming has been her way of getting hands-on experience in implementing my ideas.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/ashwoodaa",
@@ -47,7 +47,7 @@
     {
       "name": "Castle Crawford",
       "image": "img/NSS_website_photos/CastleCrawford.jpg",
-      "bio": "...",
+      "bio": "Castle Crawford invented databasing. An AngularJS and golf aficionado, Castle will add value to your group with by sending his legions of mice to chew on the cables at competing dev shops. Like Samson, his hair is his might.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/castle-c",
@@ -69,7 +69,7 @@
     {
       "name": "Mark Easterling",
       "image": "img/NSS_website_photos/MarkEasterling.jpg",
-      "bio": "...",
+      "bio": "Mark is a former clinical scientist with a proclivity for technology and music. He is avidly transitioning to a career in software development.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/markeasterling",
@@ -84,7 +84,7 @@
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/AlanE23",
-      "portfolio": "#",
+      "portfolio": "http://alane23.github.io",
       "linkedin": "https://www.linkedin.com/in/alan-eatherly-b2a88b125",
       "color_class": "red"
     },
@@ -102,11 +102,12 @@
     {
       "name": "John Green",
       "image": "img/NSS_website_photos/JohnGreen.jpg",
-      "bio": "...",
+      "bio": "John has always enjoyed helping others improve their quality of life. This desire, along with his curiosity and passion for technology is what gave him the
+drive to become a software developer. His ultimate goal is to use those skills to create something that can be useful in people's everyday lives.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/set2k6",
-      "portfolio": "#",
+      "portfolio": "http://johnhgreen.com",
       "linkedin": "http://www.linkedin.com/in/johnhgreenii",
       "color_class": "green"
     },
@@ -124,7 +125,7 @@
     {
       "name": "Tekisha Hammock",
       "image": "img/NSS_website_photos/KishaHammock.jpg",
-      "bio": "...",
+      "bio": "Tekisha Hammock once successfully wielded her family heirloom Spiked Club of the Whale to decimate a cadre of low-rent anime-dubbing voice actors. For her efforts, she received the Victoria Cross. ‘Kisha likewise aims for purity in her code. Who hires her will earn her pledge of loyalty along with her sword arm. Precision and timeliness are her hallmarks.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/tekishahammock",
@@ -135,7 +136,7 @@
     {
       "name": "Carter Harris",
       "image": "img/NSS_website_photos/CarterHarris.jpg",
-      "bio": "...",
+      "bio": "After four years of touring in the lighting production world, Carter Harris took his problem solving skills from the concert venues to the development of web applications.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/carter-harris",
@@ -157,7 +158,7 @@
     {
       "name": "Patrick Howell",
       "image": "img/NSS_website_photos/PatrickHowell.jpg",
-      "bio": "...",
+      "bio": "Patrick Howell once weighed over 630 pounds. He learned to code during his three-year recovery from an experimental bariatric surgery that resulted in the removal of all non-essential organs. He now survives on cigarettes and compassion for devs less able than himself. Great team-player.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/pbhowelljr",
@@ -168,7 +169,7 @@
     {
       "name": "Joe Kane",
       "image": "img/NSS_website_photos/JoeKane.jpg",
-      "bio": "...",
+      "bio": "Following a classified encounter with an overly-amorous hydrothermal vent back in ’06, Joe Kane retired from the Delta Force and took up whiskey-tasting. His palate is now so refined and his pheromones so potent that he writes code by literally breathing it onto the screen, which is pretty dope.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/josephkane",
@@ -194,7 +195,7 @@
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/whitney-mitchell",
-      "portfolio": "#",
+      "portfolio": "http://whitney-mitchell.github.io/",
       "linkedin": "https://www.linkedin.com/in/whitney-mitchell",
       "color_class": "purple"
     },
@@ -234,7 +235,7 @@
     {
       "name": "Damon Romano",
       "image": "img/NSS_website_photos/DamonRomano.jpg",
-      "bio": "...",
+      "bio": "Still on the run from the law, Damon Romano has mastered the Vichyssoise fork in personal combat. His approach to project architecture and TDD consistently produces entire planetary defense systems that run from a single character of code. Damon’s software development emerges from his unorthodox parenting style, in which a single, micro-expressive glance can often cause a small child to spontaneously achieve spiritual mastery.",
       "project_name": "Project Name",
       "project_link": "#",
       "github": "https://github.com/DamonRomano",
