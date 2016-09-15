@@ -1,6 +1,9 @@
 body {
   background: url("../img/class_background.png") fixed;
-  background-repeat: repeat;
+  background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   padding: 0px; }
 
 .featureProject:hover {
