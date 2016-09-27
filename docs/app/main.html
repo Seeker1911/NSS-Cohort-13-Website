@@ -5,7 +5,7 @@
       <img ng-src="{{student.image}}" alt="placeholder">
       <p ng-hide='picture'>{{ student.bio }}</p>
       <!-- link to github or deployed, their choice -->
-      <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h3 class="featureProject">{{student.project_name}}</h3></a>
+      <a href="{{student.project_link}}" target="_blank" title="Project Page" class="featureProject"><h3 class="featureProject">{{student.project_name | lengthFilter }}</h3></a>
     </div>
     <div class="iconContainer" ng-class="student.color_class">
       <a href="{{student.github}}" target="_blank" title="Github"><img src="img/GitHub-Mark-Light-32px.png" alt="" class="icon"></a> <!-- Github icon -->
